@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">Abstract Annotation Skill logo</title>
+  <desc id="desc">A geometric logo combining a table grid, magnifying lens, urban blocks, and connected variable nodes.</desc>
+  <rect width="256" height="256" rx="44" fill="#0f766e"/>
+  <rect x="40" y="48" width="112" height="112" rx="14" fill="#f8fafc"/>
+  <path d="M40 84h112M40 120h112M76 48v112M116 48v112" stroke="#0f172a" stroke-width="7" opacity=".72"/>
+  <rect x="58" y="100" width="18" height="42" rx="4" fill="#f59e0b"/>
+  <rect x="91" y="78" width="18" height="64" rx="4" fill="#134e4a"/>
+  <rect x="124" y="112" width="18" height="30" rx="4" fill="#14b8a6"/>
+  <circle cx="155" cy="150" r="42" fill="none" stroke="#f8fafc" stroke-width="14"/>
+  <path d="M186 181l34 34" stroke="#f8fafc" stroke-width="18" stroke-linecap="round"/>
+  <path d="M98 184h34l24-26 26 18 22-28" fill="none" stroke="#f59e0b" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="98" cy="184" r="9" fill="#f8fafc"/>
+  <circle cx="132" cy="184" r="9" fill="#f8fafc"/>
+  <circle cx="156" cy="158" r="9" fill="#f8fafc"/>
+  <circle cx="182" cy="176" r="9" fill="#f8fafc"/>
+  <circle cx="204" cy="148" r="9" fill="#f8fafc"/>
+</svg>
