@@ -8,6 +8,23 @@ This repository documents a reusable workflow for extracting exact relevant ment
 
 The workflow is designed for Codex or Claude Code skill-style execution. It supports CSV-based literature annotation tasks where article-level extraction must preserve exact wording from abstracts.
 
+## Example Use Case: Street-View Visual Variables
+
+One example run applies the workflow to a street-view visual variable extraction task. The workflow extracts exact variable spans from abstracts, then groups them into user-approved dimensions and subdimensions.
+
+![Example mention-ratio bar chart](examples/street-view-visual-variable-bar-chart.svg)
+
+| Dimension | Subdimensions | Mention Ratio |
+|---|---|---:|
+| Green, Natural, and Climate Conditions | Vegetation and Green Visibility; Open Space, Terrain, and Landscape Elements; Shade, Thermal, Weather, and Sound Conditions | 0.700 |
+| Street Network, Mobility, and Accessibility | Road Type and Street Configuration; Pedestrian, Cycling, and Transit Infrastructure; Accessibility, Route Efficiency, and Travel Activity | 0.467 |
+| Land Use, Density, Functions, and Facilities | Density, Morphology, and Spatial Structure; Land Use, Commercial Activity, and Functional Mix; Amenities, Services, and Urban Facilities | 0.500 |
+| Architecture, Surfaces, and Street Objects | Building Form and Facades; Street Objects, Barriers, and Edges; Surfaces, Hardscape, and Physical Disorder | 0.433 |
+| Visual Composition, Streetscape Quality, and Spatial Openness | Openness, Enclosure, Sky, and Visibility; Color, Light, and Visual Texture; Streetscape Quality, Diversity, and Visual Attention | 0.500 |
+| Perceptual, Emotional, and Social Experience | Safety, Comfort, and Fear-Related Perception; Aesthetic, Place, and Environmental Perception; Vitality, Liveliness, Wealth, and Social Sentiment; Negative Affect and Appraisal | 0.433 |
+
+See [examples/street-view-visual-variable-use-case.md](examples/street-view-visual-variable-use-case.md) for the example table.
+
 ## Workflow Summary
 
 1. Inspect CSV headers and identify abstract, language, year, and source-title fields.
@@ -17,12 +34,6 @@ The workflow is designed for Codex or Claude Code skill-style execution. It supp
 5. Remove generic container terms that are not usable review items.
 6. Group unique extracted items into dimensions and subdimensions.
 7. Generate article-level binary dimension columns, a variable assignment table, a mention-ratio chart, and a styled dimension table.
-
-## Example Use Case
-
-For a user-defined review topic, the workflow can extract relevant variables, indicators, indices, metrics, factors, constructs, measures, predictors, methods, data sources, or other analytical items from each abstract.
-
-The extracted items are then mapped into dimensions and subdimensions approved by the user.
 
 ## Outputs
 
