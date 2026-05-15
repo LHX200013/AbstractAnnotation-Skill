@@ -26,7 +26,7 @@ function Normalize-Text {
 function Normalize-Variable {
     param([object]$Value)
     $text = (Normalize-Text $Value).ToLowerInvariant()
-    $text = [regex]::Replace($text, "^[`\"'']+|[`\"'',.;:]+$", "")
+    $text = [regex]::Replace($text, "^[`"'']+|[`"'',.;:]+$", "")
     return ([regex]::Replace($text, "\s+", " ")).Trim()
 }
 
