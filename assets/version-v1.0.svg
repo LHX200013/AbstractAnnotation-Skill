@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="84" height="30" viewBox="0 0 84 30" role="img" aria-labelledby="title desc">
+  <title id="title">v1.0</title>
+  <desc id="desc">Version badge for Abstract Annotation Workflow.</desc>
+  <rect width="84" height="30" rx="7" fill="#f59e0b"/>
+  <text x="42" y="20" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#0f172a">v1.0</text>
+</svg>
