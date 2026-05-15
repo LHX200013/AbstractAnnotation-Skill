@@ -21,7 +21,7 @@ One example run applies the workflow to a street-view visual variable extraction
 | Visual Composition, Streetscape Quality, and Spatial Openness | Openness, Enclosure, Sky, and Visibility; Color, Light, and Visual Texture; Streetscape Quality, Diversity, and Visual Attention | 0.500 |
 | Perceptual, Emotional, and Social Experience | Safety, Comfort, and Fear-Related Perception; Aesthetic, Place, and Environmental Perception; Vitality, Liveliness, Wealth, and Social Sentiment; Negative Affect and Appraisal | 0.433 |
 
-![Example mention-ratio bar chart](examples/street-view-visual-variable-bar-chart.svg)
+<img src="examples/street-view-visual-variable-bar-chart.svg" alt="Example mention-ratio bar chart" width="100%" />
 
 See [examples/street-view-visual-variable-use-case.md](examples/street-view-visual-variable-use-case.md) for the example table.
 
