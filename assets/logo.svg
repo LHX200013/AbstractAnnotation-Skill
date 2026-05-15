@@ -1,18 +1,59 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
   <title id="title">Abstract Annotation Skill logo</title>
-  <desc id="desc">A geometric logo combining a table grid, magnifying lens, grouped blocks, and connected relevant-item nodes.</desc>
-  <rect width="256" height="256" rx="44" fill="#0f766e"/>
-  <rect x="40" y="48" width="112" height="112" rx="14" fill="#f8fafc"/>
-  <path d="M40 84h112M40 120h112M76 48v112M116 48v112" stroke="#0f172a" stroke-width="7" opacity=".72"/>
-  <rect x="58" y="100" width="18" height="42" rx="4" fill="#f59e0b"/>
-  <rect x="91" y="78" width="18" height="64" rx="4" fill="#134e4a"/>
-  <rect x="124" y="112" width="18" height="30" rx="4" fill="#14b8a6"/>
-  <circle cx="155" cy="150" r="42" fill="none" stroke="#f8fafc" stroke-width="14"/>
-  <path d="M186 181l34 34" stroke="#f8fafc" stroke-width="18" stroke-linecap="round"/>
-  <path d="M98 184h34l24-26 26 18 22-28" fill="none" stroke="#f59e0b" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
-  <circle cx="98" cy="184" r="9" fill="#f8fafc"/>
-  <circle cx="132" cy="184" r="9" fill="#f8fafc"/>
-  <circle cx="156" cy="158" r="9" fill="#f8fafc"/>
-  <circle cx="182" cy="176" r="9" fill="#f8fafc"/>
-  <circle cx="204" cy="148" r="9" fill="#f8fafc"/>
+  <desc id="desc">A document, magnifying glass, extracted text tags, and a handwritten SKILL label.</desc>
+  <defs>
+    <linearGradient id="bg" x1="28" y1="24" x2="230" y2="232" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0f766e"/>
+      <stop offset="1" stop-color="#083344"/>
+    </linearGradient>
+    <linearGradient id="tagTeal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2dd4bf"/>
+      <stop offset="1" stop-color="#0f766e"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="7" stdDeviation="6" flood-color="#020617" flood-opacity=".28"/>
+    </filter>
+  </defs>
+
+  <rect x="12" y="12" width="232" height="232" rx="42" fill="url(#bg)"/>
+
+  <g filter="url(#shadow)">
+    <path d="M56 36h104l40 40v134H56z" fill="#f8fafc"/>
+    <path d="M160 36v40h40z" fill="#e2e8f0"/>
+    <path d="M160 36v34c0 7 5 12 12 12h28" fill="none" stroke="#cbd5e1" stroke-width="2"/>
+  </g>
+
+  <g stroke-linecap="round" stroke-width="7">
+    <path d="M77 68h62" stroke="#0f172a"/>
+    <path d="M77 90h83" stroke="#0f172a"/>
+    <path d="M77 112h42" stroke="#64748b" opacity=".55"/>
+    <path d="M77 134h50" stroke="#0f172a"/>
+    <path d="M77 156h70" stroke="#0f172a"/>
+    <path d="M77 178h86" stroke="#64748b" opacity=".42"/>
+  </g>
+
+  <g>
+    <circle cx="128" cy="132" r="48" fill="#f8fafc" fill-opacity=".42" stroke="#0f172a" stroke-width="13"/>
+    <circle cx="128" cy="132" r="36" fill="none" stroke="#14b8a6" stroke-width="3" opacity=".8"/>
+    <path d="M94 168l-37 37" stroke="#0f172a" stroke-width="19" stroke-linecap="round"/>
+    <path d="M99 164l-39 39" stroke="#1e293b" stroke-width="8" stroke-linecap="round" opacity=".6"/>
+  </g>
+
+  <g>
+    <rect x="111" y="118" width="56" height="17" rx="8" fill="#14b8a6"/>
+    <rect x="118" y="150" width="52" height="17" rx="8" fill="#f59e0b"/>
+    <path d="M168 126c21 0 25-18 42-18" fill="none" stroke="#2dd4bf" stroke-width="5" stroke-linecap="round" stroke-dasharray="1 10"/>
+    <path d="M171 158c19 0 25 17 42 17" fill="none" stroke="#2dd4bf" stroke-width="5" stroke-linecap="round" stroke-dasharray="1 10"/>
+    <path d="M172 158c18 0 20-20 39-20" fill="none" stroke="#f59e0b" stroke-width="5" stroke-linecap="round" stroke-dasharray="1 10"/>
+    <rect x="203" y="95" width="32" height="25" rx="10" fill="url(#tagTeal)"/>
+    <rect x="202" y="165" width="33" height="25" rx="10" fill="url(#tagTeal)"/>
+    <rect x="203" y="127" width="32" height="25" rx="10" fill="#f59e0b"/>
+    <path d="M212 108h12M212 138h12M212 178h12" stroke="#f8fafc" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <g transform="rotate(-6 170 218)">
+    <rect x="120" y="196" width="112" height="35" rx="14" fill="#083344" stroke="#f8fafc" stroke-width="5"/>
+    <text x="176" y="221" text-anchor="middle" font-family="Segoe Print, Bradley Hand ITC, Comic Sans MS, cursive" font-size="28" font-weight="700" fill="#f8fafc">SKILL</text>
+    <path d="M141 225c20 5 48 5 70-1" fill="none" stroke="#f8fafc" stroke-width="3" stroke-linecap="round" opacity=".9"/>
+  </g>
 </svg>
