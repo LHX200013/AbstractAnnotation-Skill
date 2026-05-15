@@ -1,0 +1,7 @@
+interface:
+  display_name: "Abstract Annotation"
+  short_description: "Guide multi-topic abstract extraction and map variables to dimensions."
+  default_prompt: "Use $abstract-annotation to refine my literature extraction task into an approved prompt, extract exact variables, indicators, methods, or data sources from CSV abstracts across geography, urban studies, remote sensing, economic analysis, or related topics, group them into dimensions/subdimensions, and create final dimension outputs."
+
+policy:
+  allow_implicit_invocation: true
