@@ -45,5 +45,3 @@ See [examples/street-view-visual-variable-use-case.md](examples/street-view-visu
 ## Reuse Notes
 
 The workflow is designed for literature-review screening tasks where article-level extraction must preserve exact wording from abstracts. Dimension and subdimension names are interpretive, but extracted items remain exact abstract spans.
-
-For public repositories, review the license and redistribution rights for any raw bibliographic exports or abstracts before publishing them. If needed, publish only aggregate outputs, mapping tables, prompts, and documentation.
