@@ -53,7 +53,7 @@ This same ratio is used in both the bar chart and styled table.
 +-- README.md
 +-- LICENSE
 +-- .gitignore
-+-- SKILL.md
++-- introduction.md
 +-- docs/
 |   +-- workflow-introduction.md
 |   +-- github-upload.md
