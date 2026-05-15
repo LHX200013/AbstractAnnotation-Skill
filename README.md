@@ -8,6 +8,28 @@ This repository documents a reusable workflow for extracting exact relevant ment
 
 The workflow is designed for **Codex or Claude Code** skill-style execution. It supports CSV-based literature annotation tasks where raw relevant variables and terms are extracted according to a specific task.
 
+## Use as an Agent Skill
+
+This repository is intended to be used by installing the complete `abstract-annotation/` folder as an agent skill. Keep the folder name and internal structure unchanged:
+
+```text
+abstract-annotation/
+  SKILL.md
+  agents/
+  references/
+  scripts/
+```
+
+For Codex, copy the full `abstract-annotation/` folder into your Codex skills directory:
+
+```text
+C:\Users\<YOUR_USER>\.codex\skills\abstract-annotation
+```
+
+For Claude Code, copy the full `abstract-annotation/` folder into the Claude Code skills directory used by your personal or project setup. The copied folder must contain `SKILL.md`, `scripts/`, and `references/`.
+
+After copying or updating the folder, restart Codex or Claude Code, then ask the agent to use `abstract-annotation` for CSV-based abstract extraction.
+
 ## Example Use Case: Street-View Visual Variables
 
 One example run applies the workflow to a street-view visual variable extraction task. The workflow extracts exact variable spans from abstracts, then groups them into user-approved dimensions and subdimensions.
