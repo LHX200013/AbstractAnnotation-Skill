@@ -15,7 +15,7 @@ This example shows one completed run for a street-view visual variable extractio
 
 ## Bar Chart
 
-![Mention-ratio bar chart](street-view-visual-variable-bar-chart-v2.svg)
+![Mention-ratio bar chart](street-view-visual-variable-bar-chart-v3.svg)
 
 ## Notes
 
