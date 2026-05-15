@@ -6,7 +6,7 @@
 
 This repository documents a reusable workflow for extracting exact relevant mentions from academic abstracts, grouping them into literature-review dimensions, and producing article-level annotation outputs.
 
-The workflow is designed for Codex or Claude Code skill-style execution. It supports CSV-based literature annotation tasks where article-level extraction must preserve exact wording from abstracts.
+The workflow is designed for **Codex or Claude Code** skill-style execution. It supports CSV-based literature annotation tasks where raw relevant variables and terms are extracted according to a specific task.
 
 ## Example Use Case: Street-View Visual Variables
 
