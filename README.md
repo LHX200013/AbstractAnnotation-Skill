@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/logo.svg" alt="Abstract Annotation Skill logo" width="96" />
+</p>
+
 # Abstract Annotation Workflow for Urban Built Environment Variables
 
 This repository documents a reusable workflow for extracting exact variable mentions from academic abstracts, grouping them into literature-review dimensions, and producing article-level annotation outputs.
