@@ -59,6 +59,9 @@ This same ratio is used in both the bar chart and styled table.
 |   +-- github-upload.md
 +-- assets/
 |   +-- logo.svg
++-- examples/
+|   +-- street-view-visual-variable-use-case.md
+|   +-- street-view-visual-variable-bar-chart.svg
 +-- final_articles_with_dimensions.csv
 +-- dimension_original_variables.csv
 +-- dimension_mention_ratio_barplot.png
