@@ -1,0 +1,9 @@
+.abstract_annotation_work/
+*.tmp
+~$*
+Thumbs.db
+.DS_Store
+
+# Avoid accidentally publishing vendor/database exports and article-level abstract text.
+scopus_export_*.csv
+final_articles_with_dimensions.csv
