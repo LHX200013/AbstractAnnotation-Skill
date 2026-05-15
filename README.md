@@ -2,10 +2,7 @@
   <img src="assets/logo.svg" alt="Abstract Annotation Skill logo" width="96" />
 </p>
 
-<h1>
-  Abstract Annotation Workflow for Relevant Variables
-  <img src="assets/version-v1.0.svg" alt="v1.0" height="30" />
-</h1>
+# Abstract Annotation Workflow for Relevant Variables v1.0
 
 This repository documents a reusable workflow for extracting exact relevant mentions from academic abstracts, grouping them into literature-review dimensions, and producing article-level annotation outputs.
 
