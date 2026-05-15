@@ -1,36 +1,44 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 390" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" width="100%" role="img" aria-labelledby="title desc">
   <title id="title">Example mention-ratio bar chart</title>
   <desc id="desc">Bar chart showing mention ratios for six dimensions in a street-view visual variable extraction example.</desc>
-  <rect width="900" height="390" fill="#ffffff"/>
-  <text x="32" y="38" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#0f172a">Example Mention Ratio by Dimension</text>
-  <text x="32" y="64" font-family="Arial, sans-serif" font-size="13" fill="#475569">Street-view visual variable extraction example; 30 filtered articles.</text>
-  <line x1="330" y1="88" x2="330" y2="332" stroke="#cbd5e1" stroke-width="1"/>
-  <line x1="442" y1="88" x2="442" y2="332" stroke="#e2e8f0" stroke-width="1"/>
-  <line x1="554" y1="88" x2="554" y2="332" stroke="#e2e8f0" stroke-width="1"/>
-  <line x1="666" y1="88" x2="666" y2="332" stroke="#e2e8f0" stroke-width="1"/>
-  <line x1="778" y1="88" x2="778" y2="332" stroke="#e2e8f0" stroke-width="1"/>
-  <text x="330" y="354" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#475569">0.0</text>
-  <text x="442" y="354" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#475569">0.2</text>
-  <text x="554" y="354" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#475569">0.4</text>
-  <text x="666" y="354" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#475569">0.6</text>
-  <text x="778" y="354" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#475569">0.8</text>
-  <text x="554" y="376" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#334155">Mention ratio</text>
-  <text x="32" y="112" font-family="Arial, sans-serif" font-size="13" fill="#0f172a">Green, Natural, and Climate Conditions</text>
-  <rect x="330" y="96" width="392" height="22" rx="4" fill="#0f766e"/>
-  <text x="735" y="112" font-family="Arial, sans-serif" font-size="13" fill="#0f172a">0.700</text>
-  <text x="32" y="152" font-family="Arial, sans-serif" font-size="13" fill="#0f172a">Street Network, Mobility, and Accessibility</text>
-  <rect x="330" y="136" width="262" height="22" rx="4" fill="#14b8a6"/>
-  <text x="605" y="152" font-family="Arial, sans-serif" font-size="13" fill="#0f172a">0.467</text>
-  <text x="32" y="192" font-family="Arial, sans-serif" font-size="13" fill="#0f172a">Land Use, Density, Functions, and Facilities</text>
-  <rect x="330" y="176" width="280" height="22" rx="4" fill="#0f766e"/>
-  <text x="623" y="192" font-family="Arial, sans-serif" font-size="13" fill="#0f172a">0.500</text>
-  <text x="32" y="232" font-family="Arial, sans-serif" font-size="13" fill="#0f172a">Architecture, Surfaces, and Street Objects</text>
-  <rect x="330" y="216" width="242" height="22" rx="4" fill="#14b8a6"/>
-  <text x="585" y="232" font-family="Arial, sans-serif" font-size="13" fill="#0f172a">0.433</text>
-  <text x="32" y="272" font-family="Arial, sans-serif" font-size="13" fill="#0f172a">Visual Composition, Streetscape Quality, and Spatial Openness</text>
-  <rect x="330" y="256" width="280" height="22" rx="4" fill="#0f766e"/>
-  <text x="623" y="272" font-family="Arial, sans-serif" font-size="13" fill="#0f172a">0.500</text>
-  <text x="32" y="312" font-family="Arial, sans-serif" font-size="13" fill="#0f172a">Perceptual, Emotional, and Social Experience</text>
-  <rect x="330" y="296" width="242" height="22" rx="4" fill="#14b8a6"/>
-  <text x="585" y="312" font-family="Arial, sans-serif" font-size="13" fill="#0f172a">0.433</text>
+  <rect width="1200" height="500" fill="#ffffff"/>
+  <text x="40" y="46" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#0f172a">Example Mention Ratio by Dimension</text>
+  <text x="40" y="78" font-family="Arial, sans-serif" font-size="17" fill="#475569">Street-view visual variable extraction example; 30 filtered articles.</text>
+
+  <line x1="520" y1="112" x2="520" y2="408" stroke="#cbd5e1" stroke-width="1.5"/>
+  <line x1="662" y1="112" x2="662" y2="408" stroke="#e2e8f0" stroke-width="1.5"/>
+  <line x1="804" y1="112" x2="804" y2="408" stroke="#e2e8f0" stroke-width="1.5"/>
+  <line x1="946" y1="112" x2="946" y2="408" stroke="#e2e8f0" stroke-width="1.5"/>
+  <line x1="1088" y1="112" x2="1088" y2="408" stroke="#e2e8f0" stroke-width="1.5"/>
+
+  <text x="520" y="438" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#475569">0.0</text>
+  <text x="662" y="438" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#475569">0.2</text>
+  <text x="804" y="438" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#475569">0.4</text>
+  <text x="946" y="438" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#475569">0.6</text>
+  <text x="1088" y="438" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#475569">0.8</text>
+  <text x="804" y="472" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#334155">Mention ratio</text>
+
+  <text x="40" y="142" font-family="Arial, sans-serif" font-size="17" fill="#0f172a">Green, Natural, and Climate Conditions</text>
+  <rect x="520" y="122" width="497" height="28" rx="5" fill="#0f766e"/>
+  <text x="1034" y="142" font-family="Arial, sans-serif" font-size="17" fill="#0f172a">0.700</text>
+
+  <text x="40" y="190" font-family="Arial, sans-serif" font-size="17" fill="#0f172a">Street Network, Mobility, and Accessibility</text>
+  <rect x="520" y="170" width="332" height="28" rx="5" fill="#14b8a6"/>
+  <text x="869" y="190" font-family="Arial, sans-serif" font-size="17" fill="#0f172a">0.467</text>
+
+  <text x="40" y="238" font-family="Arial, sans-serif" font-size="17" fill="#0f172a">Land Use, Density, Functions, and Facilities</text>
+  <rect x="520" y="218" width="355" height="28" rx="5" fill="#0f766e"/>
+  <text x="892" y="238" font-family="Arial, sans-serif" font-size="17" fill="#0f172a">0.500</text>
+
+  <text x="40" y="286" font-family="Arial, sans-serif" font-size="17" fill="#0f172a">Architecture, Surfaces, and Street Objects</text>
+  <rect x="520" y="266" width="307" height="28" rx="5" fill="#14b8a6"/>
+  <text x="844" y="286" font-family="Arial, sans-serif" font-size="17" fill="#0f172a">0.433</text>
+
+  <text x="40" y="334" font-family="Arial, sans-serif" font-size="17" fill="#0f172a">Visual Composition, Streetscape Quality, and Spatial Openness</text>
+  <rect x="520" y="314" width="355" height="28" rx="5" fill="#0f766e"/>
+  <text x="892" y="334" font-family="Arial, sans-serif" font-size="17" fill="#0f172a">0.500</text>
+
+  <text x="40" y="382" font-family="Arial, sans-serif" font-size="17" fill="#0f172a">Perceptual, Emotional, and Social Experience</text>
+  <rect x="520" y="362" width="307" height="28" rx="5" fill="#14b8a6"/>
+  <text x="844" y="382" font-family="Arial, sans-serif" font-size="17" fill="#0f172a">0.433</text>
 </svg>
