@@ -12,8 +12,6 @@ The workflow is designed for **Codex or Claude Code** skill-style execution. It 
 
 One example run applies the workflow to a street-view visual variable extraction task. The workflow extracts exact variable spans from abstracts, then groups them into user-approved dimensions and subdimensions.
 
-![Example mention-ratio bar chart](examples/street-view-visual-variable-bar-chart.svg)
-
 | Dimension | Subdimensions | Mention Ratio |
 |---|---|---:|
 | Green, Natural, and Climate Conditions | Vegetation and Green Visibility; Open Space, Terrain, and Landscape Elements; Shade, Thermal, Weather, and Sound Conditions | 0.700 |
@@ -22,6 +20,8 @@ One example run applies the workflow to a street-view visual variable extraction
 | Architecture, Surfaces, and Street Objects | Building Form and Facades; Street Objects, Barriers, and Edges; Surfaces, Hardscape, and Physical Disorder | 0.433 |
 | Visual Composition, Streetscape Quality, and Spatial Openness | Openness, Enclosure, Sky, and Visibility; Color, Light, and Visual Texture; Streetscape Quality, Diversity, and Visual Attention | 0.500 |
 | Perceptual, Emotional, and Social Experience | Safety, Comfort, and Fear-Related Perception; Aesthetic, Place, and Environmental Perception; Vitality, Liveliness, Wealth, and Social Sentiment; Negative Affect and Appraisal | 0.433 |
+
+![Example mention-ratio bar chart](examples/street-view-visual-variable-bar-chart.svg)
 
 See [examples/street-view-visual-variable-use-case.md](examples/street-view-visual-variable-use-case.md) for the example table.
 
