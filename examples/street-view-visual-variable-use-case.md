@@ -10,7 +10,7 @@ This example shows one completed run for a street-view visual variable extractio
 | Street Network, Mobility, and Accessibility | Road Type and Street Configuration; Pedestrian, Cycling, and Transit Infrastructure; Accessibility, Route Efficiency, and Travel Activity | 0.467 |
 | Land Use, Density, Functions, and Facilities | Density, Morphology, and Spatial Structure; Land Use, Commercial Activity, and Functional Mix; Amenities, Services, and Urban Facilities | 0.500 |
 | Architecture, Surfaces, and Street Objects | Building Form and Facades; Street Objects, Barriers, and Edges; Surfaces, Hardscape, and Physical Disorder | 0.433 |
-| Visual Composition, Streetscape Quality, and Spatial Openness | Openness, Enclosure, Sky, and Visibility; Color, Light, and Visual Texture; Streetscape Quality, Diversity, and Visual Attention | 0.500 |
+| Visual Composition, and Streetscape Quality | Openness, Enclosure, Sky, and Visibility; Color, Light, and Visual Texture; Streetscape Quality, Diversity, and Visual Attention | 0.500 |
 | Perceptual, Emotional, and Social Experience | Safety, Comfort, and Fear-Related Perception; Aesthetic, Place, and Environmental Perception; Vitality, Liveliness, Wealth, and Social Sentiment; Negative Affect and Appraisal | 0.433 |
 
 ## Bar Chart
