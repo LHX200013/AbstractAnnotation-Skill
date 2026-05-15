@@ -20,7 +20,7 @@ abstract-annotation/
   scripts/
 ```
 
-For Codex, copy the full `abstract-annotation/` folder into your Codex skills directory:
+For Codex in Windows, copy the full `abstract-annotation/` folder into your Codex skills directory:
 
 ```text
 C:\Users\<YOUR_USER>\.codex\skills\abstract-annotation
